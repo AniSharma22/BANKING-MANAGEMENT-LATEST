@@ -1,0 +1,384 @@
+2024-12-11 13:55:47,188 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='2278255742992'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000212728E23C0>),), kwargs: {}
+2024-12-11 13:55:47,189 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 13:55:47,192 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='2278255750720'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000212728E23C0>),), kwargs: {}
+2024-12-11 13:55:47,193 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 13:55:47,196 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='2278255751728'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000212728E23C0>),), kwargs: {}
+2024-12-11 13:55:47,197 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 13:55:47,199 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='2278255750384'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000212728E23C0>), '123'), kwargs: {}
+2024-12-11 13:55:47,200 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 13:55:47,203 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='2278255752064'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000212728E23C0>), '123'), kwargs: {}
+2024-12-11 13:55:47,203 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 13:55:47,205 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='2278255748704'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000212728E23C0>),), kwargs: {}
+2024-12-11 13:55:47,206 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 13:55:47,209 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='2278255744000'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000212728E23C0>),), kwargs: {}
+2024-12-11 13:55:47,209 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 13:55:47,211 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='2278255749376'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000212728E23C0>),), kwargs: {}
+2024-12-11 13:55:47,212 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 13:55:47,215 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='2278255750048'>),), kwargs: {}
+2024-12-11 13:55:47,215 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 13:55:47,218 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='2278255745680'>), '1234'), kwargs: {}
+2024-12-11 13:55:47,218 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 13:55:47,220 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='2278255746352'>), '1234'), kwargs: {}
+2024-12-11 13:55:47,221 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 13:55:47,226 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='2278255751056'>), '123'), kwargs: {}
+2024-12-11 13:55:47,226 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 13:55:47,229 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2278255749712'>),), kwargs: {}
+2024-12-11 13:55:47,230 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 13:55:47,232 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2278255742992'>),), kwargs: {}
+2024-12-11 13:55:47,233 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 13:55:47,236 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='2278255751728'>),), kwargs: {}
+2024-12-11 13:55:47,237 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 13:55:47,239 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='2278255751392'>),), kwargs: {}
+2024-12-11 13:55:47,240 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:57:26,153 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='2833759552576'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000293C9254D70>),), kwargs: {}
+2024-12-11 13:57:26,155 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 13:57:26,161 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='2833759551568'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000293C9254D70>),), kwargs: {}
+2024-12-11 13:57:26,162 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 13:57:26,167 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='2833759566352'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000293C9254D70>),), kwargs: {}
+2024-12-11 13:57:26,167 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 13:57:26,172 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='2833759961840'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000293C9254D70>), '123'), kwargs: {}
+2024-12-11 13:57:26,172 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 13:57:26,176 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='2833759565344'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000293C9254D70>), '123'), kwargs: {}
+2024-12-11 13:57:26,177 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 13:57:26,181 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='2833759551568'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000293C9254D70>),), kwargs: {}
+2024-12-11 13:57:26,182 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 13:57:26,186 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='2833759554928'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000293C9254D70>),), kwargs: {}
+2024-12-11 13:57:26,187 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 13:57:26,191 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='2833759561648'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000293C9254D70>),), kwargs: {}
+2024-12-11 13:57:26,192 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 13:57:26,198 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='2833759565680'>),), kwargs: {}
+2024-12-11 13:57:26,199 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 13:57:26,203 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='2833759567360'>), '1234'), kwargs: {}
+2024-12-11 13:57:26,204 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 13:57:26,208 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='2833759962512'>), '1234'), kwargs: {}
+2024-12-11 13:57:26,209 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 13:57:26,218 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='2833759565344'>), '123'), kwargs: {}
+2024-12-11 13:57:26,219 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 13:57:26,224 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2833759560976'>),), kwargs: {}
+2024-12-11 13:57:26,225 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 13:57:26,229 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2833759963184'>),), kwargs: {}
+2024-12-11 13:57:26,230 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 13:57:26,238 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='2833759560976'>),), kwargs: {}
+2024-12-11 13:57:26,239 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 13:57:26,244 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='2833759565008'>),), kwargs: {}
+2024-12-11 13:57:26,245 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:57:46,408 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='1969150968896'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001CA7A754D70>),), kwargs: {}
+2024-12-11 13:57:46,409 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 13:57:46,415 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='1969150967888'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001CA7A754D70>),), kwargs: {}
+2024-12-11 13:57:46,416 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 13:57:46,421 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='1969150982672'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001CA7A754D70>),), kwargs: {}
+2024-12-11 13:57:46,422 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 13:57:46,427 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='1969151378160'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001CA7A754D70>), '123'), kwargs: {}
+2024-12-11 13:57:46,427 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 13:57:46,432 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='1969150981664'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001CA7A754D70>), '123'), kwargs: {}
+2024-12-11 13:57:46,432 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 13:57:46,437 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='1969150967888'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001CA7A754D70>),), kwargs: {}
+2024-12-11 13:57:46,438 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 13:57:46,442 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='1969150971248'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001CA7A754D70>),), kwargs: {}
+2024-12-11 13:57:46,443 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 13:57:46,447 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='1969150977968'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001CA7A754D70>),), kwargs: {}
+2024-12-11 13:57:46,448 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 13:57:46,453 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='1969150982000'>),), kwargs: {}
+2024-12-11 13:57:46,454 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 13:57:46,458 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='1969150983680'>), '1234'), kwargs: {}
+2024-12-11 13:57:46,459 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 13:57:46,463 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='1969151378832'>), '1234'), kwargs: {}
+2024-12-11 13:57:46,464 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 13:57:46,473 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='1969150981664'>), '123'), kwargs: {}
+2024-12-11 13:57:46,473 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 13:57:46,479 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1969150977296'>),), kwargs: {}
+2024-12-11 13:57:46,479 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 13:57:46,484 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1969151379504'>),), kwargs: {}
+2024-12-11 13:57:46,484 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 13:57:46,492 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='1969150977296'>),), kwargs: {}
+2024-12-11 13:57:46,493 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 13:57:46,498 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='1969150981328'>),), kwargs: {}
+2024-12-11 13:57:46,499 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:17:24,097 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='2327464528928'>, logger=<src.app.utils.logger.logger.Logger object at 0x0000021DE79FE270>),), kwargs: {}
+2024-12-11 14:17:24,097 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 14:17:24,100 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='2327464536656'>, logger=<src.app.utils.logger.logger.Logger object at 0x0000021DE79FE270>),), kwargs: {}
+2024-12-11 14:17:24,101 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 14:17:24,104 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='2327464535312'>, logger=<src.app.utils.logger.logger.Logger object at 0x0000021DE79FE270>),), kwargs: {}
+2024-12-11 14:17:24,104 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 14:17:24,106 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='2327464529936'>, logger=<src.app.utils.logger.logger.Logger object at 0x0000021DE79FE270>), '123'), kwargs: {}
+2024-12-11 14:17:24,107 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 14:17:24,109 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='2327464534976'>, logger=<src.app.utils.logger.logger.Logger object at 0x0000021DE79FE270>), '123'), kwargs: {}
+2024-12-11 14:17:24,109 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 14:17:24,112 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='2327464535984'>, logger=<src.app.utils.logger.logger.Logger object at 0x0000021DE79FE270>),), kwargs: {}
+2024-12-11 14:17:24,113 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 14:17:24,115 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='2327464529600'>, logger=<src.app.utils.logger.logger.Logger object at 0x0000021DE79FE270>),), kwargs: {}
+2024-12-11 14:17:24,116 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 14:17:24,118 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='2327464535312'>, logger=<src.app.utils.logger.logger.Logger object at 0x0000021DE79FE270>),), kwargs: {}
+2024-12-11 14:17:24,118 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 14:17:24,122 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='2327464531280'>),), kwargs: {}
+2024-12-11 14:17:24,122 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 14:17:24,125 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='2327464536320'>), '1234'), kwargs: {}
+2024-12-11 14:17:24,125 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 14:17:24,128 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='2327464538000'>), '1234'), kwargs: {}
+2024-12-11 14:17:24,128 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 14:17:24,132 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='2327464529264'>), '123'), kwargs: {}
+2024-12-11 14:17:24,133 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 14:17:24,136 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2327464529600'>),), kwargs: {}
+2024-12-11 14:17:24,136 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 14:17:24,139 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2327464535312'>),), kwargs: {}
+2024-12-11 14:17:24,139 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 14:17:24,143 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='2327464539344'>),), kwargs: {}
+2024-12-11 14:17:24,143 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:17:24,146 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='2327464540016'>),), kwargs: {}
+2024-12-11 14:17:24,146 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:21:17,097 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='1603116450208'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000175411D5010>),), kwargs: {}
+2024-12-11 14:21:17,099 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 14:21:17,104 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='1603116460288'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000175411D5010>),), kwargs: {}
+2024-12-11 14:21:17,105 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 14:21:17,111 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='1603116463984'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000175411D5010>),), kwargs: {}
+2024-12-11 14:21:17,111 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 14:21:17,115 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='1603116461632'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000175411D5010>), '123'), kwargs: {}
+2024-12-11 14:21:17,116 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 14:21:17,120 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='1603116458272'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000175411D5010>), '123'), kwargs: {}
+2024-12-11 14:21:17,121 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 14:21:17,125 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='1603116458608'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000175411D5010>),), kwargs: {}
+2024-12-11 14:21:17,126 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 14:21:17,130 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='1603116457600'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000175411D5010>),), kwargs: {}
+2024-12-11 14:21:17,131 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 14:21:17,134 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='1603116458608'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000175411D5010>),), kwargs: {}
+2024-12-11 14:21:17,135 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 14:21:17,140 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='1603116461296'>),), kwargs: {}
+2024-12-11 14:21:17,141 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 14:21:17,145 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='1603116458944'>), '1234'), kwargs: {}
+2024-12-11 14:21:17,146 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 14:21:17,150 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='1603116451216'>), '1234'), kwargs: {}
+2024-12-11 14:21:17,151 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 14:21:17,159 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='1603116460624'>), '123'), kwargs: {}
+2024-12-11 14:21:17,160 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 14:21:17,165 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1603116452224'>),), kwargs: {}
+2024-12-11 14:21:17,165 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 14:21:17,170 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1603116464992'>),), kwargs: {}
+2024-12-11 14:21:17,170 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 14:21:17,178 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='1603116452560'>),), kwargs: {}
+2024-12-11 14:21:17,179 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:21:17,183 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='1603116452896'>),), kwargs: {}
+2024-12-11 14:21:17,184 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:28:53,486 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='1793918140832'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001A1ADC65010>),), kwargs: {}
+2024-12-11 14:28:53,488 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 14:28:53,494 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='1793918150912'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001A1ADC65010>),), kwargs: {}
+2024-12-11 14:28:53,495 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 14:28:53,500 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='1793918151248'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001A1ADC65010>),), kwargs: {}
+2024-12-11 14:28:53,501 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 14:28:53,505 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='1793918152592'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001A1ADC65010>), '123'), kwargs: {}
+2024-12-11 14:28:53,505 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 14:28:53,509 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='1793918148224'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001A1ADC65010>), '123'), kwargs: {}
+2024-12-11 14:28:53,510 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 14:28:53,514 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='1793918149568'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001A1ADC65010>),), kwargs: {}
+2024-12-11 14:28:53,515 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 14:28:53,519 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='1793918141168'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001A1ADC65010>),), kwargs: {}
+2024-12-11 14:28:53,520 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 14:28:53,524 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='1793918148896'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001A1ADC65010>),), kwargs: {}
+2024-12-11 14:28:53,525 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 14:28:53,530 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='1793918142848'>),), kwargs: {}
+2024-12-11 14:28:53,531 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 14:28:53,535 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='1793918145872'>), '1234'), kwargs: {}
+2024-12-11 14:28:53,536 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 14:28:53,540 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='1793918142176'>), '1234'), kwargs: {}
+2024-12-11 14:28:53,540 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 14:28:53,548 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='1793918141168'>), '123'), kwargs: {}
+2024-12-11 14:28:53,549 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 14:28:53,554 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1793918155952'>),), kwargs: {}
+2024-12-11 14:28:53,555 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 14:28:53,560 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1793918141504'>),), kwargs: {}
+2024-12-11 14:28:53,560 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 14:28:53,568 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='1793918152592'>),), kwargs: {}
+2024-12-11 14:28:53,569 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:28:53,573 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='1793918151248'>),), kwargs: {}
+2024-12-11 14:28:53,574 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:30:47,325 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='1848991090400'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001AE805E5010>),), kwargs: {}
+2024-12-11 14:30:47,327 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 14:30:47,332 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='1848991089392'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001AE805E5010>),), kwargs: {}
+2024-12-11 14:30:47,333 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 14:30:47,338 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='1848991104176'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001AE805E5010>),), kwargs: {}
+2024-12-11 14:30:47,339 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 14:30:47,343 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='1848991450512'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001AE805E5010>), '123'), kwargs: {}
+2024-12-11 14:30:47,343 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 14:30:47,348 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='1848991451856'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001AE805E5010>), '123'), kwargs: {}
+2024-12-11 14:30:47,348 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 14:30:47,353 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='1848991103168'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001AE805E5010>),), kwargs: {}
+2024-12-11 14:30:47,354 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 14:30:47,359 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='1848991450848'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001AE805E5010>),), kwargs: {}
+2024-12-11 14:30:47,360 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 14:30:47,363 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='1848991451520'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001AE805E5010>),), kwargs: {}
+2024-12-11 14:30:47,365 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 14:30:47,370 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='1848991103168'>),), kwargs: {}
+2024-12-11 14:30:47,371 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 14:30:47,375 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='1848991450512'>), '1234'), kwargs: {}
+2024-12-11 14:30:47,375 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 14:30:47,379 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='1848991453200'>), '1234'), kwargs: {}
+2024-12-11 14:30:47,380 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 14:30:47,388 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='1848991454544'>), '123'), kwargs: {}
+2024-12-11 14:30:47,389 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 14:30:47,394 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1848991453200'>),), kwargs: {}
+2024-12-11 14:30:47,395 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 14:30:47,399 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1848991450176'>),), kwargs: {}
+2024-12-11 14:30:47,400 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 14:30:47,407 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='1848991454880'>),), kwargs: {}
+2024-12-11 14:30:47,408 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:30:47,413 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='1848991456224'>),), kwargs: {}
+2024-12-11 14:30:47,414 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 15:35:53,267 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='2116543367216'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001ECCBBAD010>),), kwargs: {}
+2024-12-11 15:35:53,270 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 15:35:53,275 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='2116543366208'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001ECCBBAD010>),), kwargs: {}
+2024-12-11 15:35:53,276 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 15:35:53,282 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='2116543378304'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001ECCBBAD010>),), kwargs: {}
+2024-12-11 15:35:53,282 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 15:35:53,287 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='2116543375616'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001ECCBBAD010>), '123'), kwargs: {}
+2024-12-11 15:35:53,287 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 15:35:53,292 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='2116543372256'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001ECCBBAD010>), '123'), kwargs: {}
+2024-12-11 15:35:53,292 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 15:35:53,296 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='2116543368224'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001ECCBBAD010>),), kwargs: {}
+2024-12-11 15:35:53,297 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 15:35:53,301 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='2116543372256'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001ECCBBAD010>),), kwargs: {}
+2024-12-11 15:35:53,302 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 15:35:53,306 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='2116543376288'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001ECCBBAD010>),), kwargs: {}
+2024-12-11 15:35:53,307 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 15:35:53,312 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='2116543371248'>),), kwargs: {}
+2024-12-11 15:35:53,312 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 15:35:53,317 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='2116543380992'>), '1234'), kwargs: {}
+2024-12-11 15:35:53,318 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 15:35:53,323 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='2116543371248'>), '1234'), kwargs: {}
+2024-12-11 15:35:53,323 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 15:35:53,331 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='2116543378640'>), '123'), kwargs: {}
+2024-12-11 15:35:53,332 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 15:35:53,337 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2116543367888'>),), kwargs: {}
+2024-12-11 15:35:53,338 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 15:35:53,342 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2116543378640'>),), kwargs: {}
+2024-12-11 15:35:53,342 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 15:35:53,350 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='2116543367552'>),), kwargs: {}
+2024-12-11 15:35:53,351 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 15:35:53,356 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='2116543372256'>),), kwargs: {}
+2024-12-11 15:35:53,357 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 16:13:37,287 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='2829402461184'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000292C572C1A0>),), kwargs: {}
+2024-12-11 16:13:37,289 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 16:13:37,295 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='2829403030256'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000292C572C1A0>),), kwargs: {}
+2024-12-11 16:13:37,297 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 16:13:37,302 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='2829402462528'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000292C572C1A0>),), kwargs: {}
+2024-12-11 16:13:37,303 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 16:13:37,307 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='2829402462864'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000292C572C1A0>), '123'), kwargs: {}
+2024-12-11 16:13:37,307 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 16:13:37,312 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='2829402464880'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000292C572C1A0>), '123'), kwargs: {}
+2024-12-11 16:13:37,312 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 16:13:37,317 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='2829402463536'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000292C572C1A0>),), kwargs: {}
+2024-12-11 16:13:37,318 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 16:13:37,322 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='2829402462192'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000292C572C1A0>),), kwargs: {}
+2024-12-11 16:13:37,323 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 16:13:37,327 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='2829402462528'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000292C572C1A0>),), kwargs: {}
+2024-12-11 16:13:37,328 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 16:13:37,333 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='2829403031264'>),), kwargs: {}
+2024-12-11 16:13:37,334 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 16:13:37,338 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='2829402460176'>), '1234'), kwargs: {}
+2024-12-11 16:13:37,339 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 16:13:37,343 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='2829402469920'>), '1234'), kwargs: {}
+2024-12-11 16:13:37,343 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 16:13:37,351 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='2829403031600'>), '123'), kwargs: {}
+2024-12-11 16:13:37,352 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 16:13:37,357 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2829403035296'>),), kwargs: {}
+2024-12-11 16:13:37,358 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 16:13:37,363 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2829402462528'>),), kwargs: {}
+2024-12-11 16:13:37,363 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 16:13:37,372 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='2829403034960'>),), kwargs: {}
+2024-12-11 16:13:37,373 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 16:13:37,377 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='2829403033952'>),), kwargs: {}
+2024-12-11 16:13:37,378 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 16:29:31,559 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='2854912759456'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000298B5FEC1A0>),), kwargs: {}
+2024-12-11 16:29:31,561 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 16:29:31,567 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='2854913574288'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000298B5FEC1A0>),), kwargs: {}
+2024-12-11 16:29:31,568 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 16:29:31,574 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='2854912759792'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000298B5FEC1A0>),), kwargs: {}
+2024-12-11 16:29:31,574 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 16:29:31,578 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='2854912762144'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000298B5FEC1A0>), '123'), kwargs: {}
+2024-12-11 16:29:31,579 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 16:29:31,583 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='2854912761808'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000298B5FEC1A0>), '123'), kwargs: {}
+2024-12-11 16:29:31,583 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 16:29:31,588 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='2854913575632'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000298B5FEC1A0>),), kwargs: {}
+2024-12-11 16:29:31,589 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 16:29:31,592 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='2854912762144'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000298B5FEC1A0>),), kwargs: {}
+2024-12-11 16:29:31,593 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 16:29:31,597 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='2854912759456'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000298B5FEC1A0>),), kwargs: {}
+2024-12-11 16:29:31,598 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 16:29:31,604 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='2854913575968'>),), kwargs: {}
+2024-12-11 16:29:31,604 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 16:29:31,608 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='2854912768192'>), '1234'), kwargs: {}
+2024-12-11 16:29:31,609 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 16:29:31,613 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='2854913575296'>), '1234'), kwargs: {}
+2024-12-11 16:29:31,614 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 16:29:31,621 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='2854913577312'>), '123'), kwargs: {}
+2024-12-11 16:29:31,622 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 16:29:31,627 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2854912758448'>),), kwargs: {}
+2024-12-11 16:29:31,628 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 16:29:31,632 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='2854913572944'>),), kwargs: {}
+2024-12-11 16:29:31,632 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 16:29:31,640 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='2854913578992'>),), kwargs: {}
+2024-12-11 16:29:31,641 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 16:29:31,646 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='2854913580000'>),), kwargs: {}
+2024-12-11 16:29:31,648 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 16:35:18,561 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='1540880963232'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000166C398C1A0>),), kwargs: {}
+2024-12-11 16:35:18,563 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-11 16:35:18,569 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='1540881778064'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000166C398C1A0>),), kwargs: {}
+2024-12-11 16:35:18,570 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-11 16:35:18,575 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='1540880963568'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000166C398C1A0>),), kwargs: {}
+2024-12-11 16:35:18,576 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-11 16:35:18,580 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='1540880965920'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000166C398C1A0>), '123'), kwargs: {}
+2024-12-11 16:35:18,581 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-11 16:35:18,585 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='1540880965584'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000166C398C1A0>), '123'), kwargs: {}
+2024-12-11 16:35:18,586 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-11 16:35:18,590 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='1540881779408'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000166C398C1A0>),), kwargs: {}
+2024-12-11 16:35:18,591 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-11 16:35:18,595 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='1540880965920'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000166C398C1A0>),), kwargs: {}
+2024-12-11 16:35:18,596 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-11 16:35:18,600 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='1540880963232'>, logger=<src.app.utils.logger.logger.Logger object at 0x00000166C398C1A0>),), kwargs: {}
+2024-12-11 16:35:18,601 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-11 16:35:18,606 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='1540881779744'>),), kwargs: {}
+2024-12-11 16:35:18,607 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-11 16:35:18,611 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='1540880971968'>), '1234'), kwargs: {}
+2024-12-11 16:35:18,611 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-11 16:35:18,616 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='1540881779072'>), '1234'), kwargs: {}
+2024-12-11 16:35:18,616 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-11 16:35:18,624 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='1540881781088'>), '123'), kwargs: {}
+2024-12-11 16:35:18,625 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-11 16:35:18,630 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1540880962224'>),), kwargs: {}
+2024-12-11 16:35:18,631 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-11 16:35:18,635 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1540881776720'>),), kwargs: {}
+2024-12-11 16:35:18,636 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-11 16:35:18,643 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='1540881782768'>),), kwargs: {}
+2024-12-11 16:35:18,644 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 16:35:18,649 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='1540881783776'>),), kwargs: {}
+2024-12-11 16:35:18,652 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 17:10:22,725 - MainThread - ThreadSafeLogger - INFO - Calling create_account with args: (AccountHandler(account_service=<MagicMock id='1926101506032'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001C07487C1A0>),), kwargs: {}
+2024-12-12 17:10:22,727 - MainThread - ThreadSafeLogger - INFO - create_account executed successfully.
+2024-12-12 17:10:22,734 - MainThread - ThreadSafeLogger - INFO - Calling get_user_accounts with args: (AccountHandler(account_service=<MagicMock id='1926102353296'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001C07487C1A0>),), kwargs: {}
+2024-12-12 17:10:22,735 - MainThread - ThreadSafeLogger - INFO - get_user_accounts executed successfully.
+2024-12-12 17:10:22,741 - MainThread - ThreadSafeLogger - INFO - Calling create_bank with args: (BankHandler(bank_service=<MagicMock id='1926101506368'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001C07487C1A0>),), kwargs: {}
+2024-12-12 17:10:22,742 - MainThread - ThreadSafeLogger - INFO - create_bank executed successfully.
+2024-12-12 17:10:22,746 - MainThread - ThreadSafeLogger - INFO - Calling update_bank with args: (BankHandler(bank_service=<MagicMock id='1926101509728'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001C07487C1A0>), '123'), kwargs: {}
+2024-12-12 17:10:22,746 - MainThread - ThreadSafeLogger - INFO - update_bank executed successfully.
+2024-12-12 17:10:22,750 - MainThread - ThreadSafeLogger - INFO - Calling delete_bank with args: (BankHandler(bank_service=<MagicMock id='1926101505696'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001C07487C1A0>), '123'), kwargs: {}
+2024-12-12 17:10:22,751 - MainThread - ThreadSafeLogger - INFO - delete_bank executed successfully.
+2024-12-12 17:10:22,755 - MainThread - ThreadSafeLogger - INFO - Calling get_all_banks with args: (BankHandler(bank_service=<MagicMock id='1926102354304'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001C07487C1A0>),), kwargs: {}
+2024-12-12 17:10:22,756 - MainThread - ThreadSafeLogger - INFO - get_all_banks executed successfully.
+2024-12-12 17:10:22,760 - MainThread - ThreadSafeLogger - INFO - Calling get_user_banks with args: (BankHandler(bank_service=<MagicMock id='1926101508720'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001C07487C1A0>),), kwargs: {}
+2024-12-12 17:10:22,761 - MainThread - ThreadSafeLogger - INFO - get_user_banks executed successfully.
+2024-12-12 17:10:22,765 - MainThread - ThreadSafeLogger - INFO - Calling get_available_banks_for_user with args: (BankHandler(bank_service=<MagicMock id='1926101508384'>, logger=<src.app.utils.logger.logger.Logger object at 0x000001C07487C1A0>),), kwargs: {}
+2024-12-12 17:10:22,766 - MainThread - ThreadSafeLogger - INFO - get_available_banks_for_user executed successfully.
+2024-12-12 17:10:22,772 - MainThread - ThreadSafeLogger - INFO - Calling create_branch with args: (BranchHandler(branch_service=<MagicMock id='1926102351952'>),), kwargs: {}
+2024-12-12 17:10:22,773 - MainThread - ThreadSafeLogger - INFO - create_branch executed successfully.
+2024-12-12 17:10:22,777 - MainThread - ThreadSafeLogger - INFO - Calling update_branch with args: (BranchHandler(branch_service=<MagicMock id='1926101507040'>), '1234'), kwargs: {}
+2024-12-12 17:10:22,778 - MainThread - ThreadSafeLogger - INFO - update_branch executed successfully.
+2024-12-12 17:10:22,782 - MainThread - ThreadSafeLogger - INFO - Calling delete_branch with args: (BranchHandler(branch_service=<MagicMock id='1926102352288'>), '1234'), kwargs: {}
+2024-12-12 17:10:22,782 - MainThread - ThreadSafeLogger - INFO - delete_branch executed successfully.
+2024-12-12 17:10:22,790 - MainThread - ThreadSafeLogger - INFO - Calling get_bank_branches with args: (BranchHandler(branch_service=<MagicMock id='1926102356320'>), '123'), kwargs: {}
+2024-12-12 17:10:22,791 - MainThread - ThreadSafeLogger - INFO - get_bank_branches executed successfully.
+2024-12-12 17:10:22,796 - MainThread - ThreadSafeLogger - INFO - Calling create_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1926102355984'>),), kwargs: {}
+2024-12-12 17:10:22,797 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-12 17:10:22,802 - MainThread - ThreadSafeLogger - INFO - Calling view_transaction with args: (TransactionHandler(transaction_service=<MagicMock id='1926102354976'>),), kwargs: {}
+2024-12-12 17:10:22,803 - MainThread - ThreadSafeLogger - INFO - view_transaction executed successfully.
+2024-12-12 17:10:22,811 - MainThread - ThreadSafeLogger - INFO - Calling login with args: (UserHandler(user_service=<MagicMock id='1926102358000'>),), kwargs: {}
+2024-12-12 17:10:22,812 - MainThread - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 17:10:22,816 - MainThread - ThreadSafeLogger - INFO - Calling signup with args: (UserHandler(user_service=<MagicMock id='1926102359008'>),), kwargs: {}
+2024-12-12 17:10:22,819 - MainThread - ThreadSafeLogger - INFO - signup executed successfully.

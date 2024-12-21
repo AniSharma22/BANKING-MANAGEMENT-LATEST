@@ -1,0 +1,15 @@
+2024-12-13 17:50:24,053 - MainThread - ThreadSafeLogger - DEBUG - Entering create_transaction
+User Context:
+  - user_id: 123
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '69'}
+  - body: {'amount': 200, 'receiver_acc_id': '23456', 'sender_acc_id': '12345'}
+Function Context:
+  - handler: TransactionHandler
+
+2024-12-13 17:50:24,054 - MainThread - ThreadSafeLogger - INFO - create_transaction executed successfully.
+2024-12-13 17:50:24,054 - MainThread - ThreadSafeLogger - DEBUG - Exiting create_transaction
