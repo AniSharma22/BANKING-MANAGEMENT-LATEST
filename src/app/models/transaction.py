@@ -1,11 +1,13 @@
 import uuid
 
+from src.app.utils.types import TransactionType
+
 
 class Transaction:
     # TODO FB: REMOVE UNREQUIRED FIELDS
     # TODO : SEPERATE DTOS AND REQUEST OBJECTS
     # TRANSACTION TYPE FIX
-    def __init__(self, amount: int, transaction_type, sender_acc_id=None, receiver_acc_id=None, time_stamp=None,
+    def __init__(self, amount: int, transaction_type: TransactionType, sender_acc_id=None, receiver_acc_id=None, time_stamp=None,
                  id=None):
         self.id = id if id else str(uuid.uuid4())
         self.sender_acc_id = sender_acc_id

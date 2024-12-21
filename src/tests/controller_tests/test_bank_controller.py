@@ -3,7 +3,7 @@ from unittest.mock import MagicMock
 import pytest
 from flask import Flask, g
 
-from src.app.controller.bank_urls.bank_routes import BankHandler
+from src.app.controller.bank_controller.bank_routes import BankHandler
 
 
 class TestBankHandler:

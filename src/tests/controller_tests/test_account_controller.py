@@ -3,7 +3,7 @@ from unittest.mock import MagicMock
 import pytest
 from flask import Flask, g
 
-from src.app.controller.account_urls.account_routes import AccountHandler
+from src.app.controller.account_controller.account_routes import AccountHandler
 
 
 class TestAccountHandler:

@@ -3,7 +3,7 @@ from unittest.mock import MagicMock
 import pytest
 from flask import Flask, g
 
-from src.app.controller.branch_urls.branch_routes import BranchHandler
+from src.app.controller.branch_controller.branch_routes import BranchHandler
 
 
 class TestBranchHandler:

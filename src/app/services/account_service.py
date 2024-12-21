@@ -1,7 +1,8 @@
 from src.app.models.account import Account
 from src.app.repositories.account_repository import AccountRepository
 from src.app.services.branch_service import BranchService
-from src.app.utils.errors.error import NotExistsError, ExistsError
+from src.app.utils.errors.error import BranchNotExistsError, AccountExistsError, AccountNotExistsError, \
+    InvalidOperationError
 
 
 class AccountService:
@@ -11,10 +12,10 @@ class AccountService:
 
     def create_new_account(self, account: Account):
         if self.branch_service.get_branch_by_id(account.branch_id) is None:
-            raise NotExistsError("Branch does not exist")
+            raise BranchNotExistsError("Branch does not exist")
 
         if self.account_repository.user_account_exists(account.user_id, account.bank_id):
-            raise ExistsError("User already has an account in this bank")
+            raise AccountExistsError("User already has an account in this bank")
 
         self.account_repository.create_account(account)
 
@@ -25,9 +26,9 @@ class AccountService:
         # check if the account belongs to the user and exists then delete
         account = self.get_account_by_id(account_id)
         if account is None:
-            raise NotExistsError('Account does not exist')
+            raise AccountNotExistsError('Account does not exist')
         if account.user_id != user_id:
-            raise PermissionError('You do not have permission to delete this account')
+            raise InvalidOperationError('You do not have permission to delete this account')
 
         self.account_repository.delete_account(account)
 

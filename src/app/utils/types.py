@@ -5,7 +5,6 @@ class Role(Enum):
     ADMIN = "admin"
 
 class TransactionType(Enum):
-    # SWAP
-    DEPOSIT = "deposit"
-    WITHDRAW = "withdraw"
-    TRANSFER = "transfer"
+    deposit = "DEPOSIT"
+    withdraw = "WITHDRAW"
+    transfer = "TRANSFER"

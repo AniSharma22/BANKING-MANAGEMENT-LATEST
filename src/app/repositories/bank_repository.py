@@ -22,7 +22,7 @@ class BankRepository:
             conn = self.db.get_connection()
             with conn:
                 cursor = conn.cursor()
-                query = GenericQueryBuilder.select("banks", ["id", "name"])
+                query,_ = GenericQueryBuilder.select("banks", ["id", "name"])
                 cursor.execute(query)
                 results = cursor.fetchall()
 

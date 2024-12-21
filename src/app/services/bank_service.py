@@ -2,7 +2,7 @@ from typing import List, Union
 
 from src.app.models.bank import Bank
 from src.app.repositories.bank_repository import BankRepository
-from src.app.utils.errors.error import NotExistsError
+from src.app.utils.errors.error import NotExistsError, BankNotExistsError
 
 
 class BankService:
@@ -24,13 +24,13 @@ class BankService:
     def update_bank(self, bank_id: str, new_bank_name: str):
         #check if the bank exists
         if self.get_bank_by_id(bank_id) is None:
-            raise NotExistsError("Bank does not exist")
+            raise BankNotExistsError("Bank does not exist")
         self.bank_repository.update_bank_name(bank_id, new_bank_name)
 
     def delete_bank(self, bank_id: str):
         # check if the bank exists
         if self.get_bank_by_id(bank_id) is None:
-            raise NotExistsError("Bank does not exist")
+            raise BankNotExistsError("Bank does not exist")
         self.bank_repository.remove_bank(bank_id)
 
     def get_bank_by_id(self, bank_id: str) -> Bank:

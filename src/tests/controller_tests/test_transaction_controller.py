@@ -4,7 +4,7 @@ from unittest.mock import MagicMock
 import pytest
 from flask import Flask, g
 
-from src.app.controller.transaction_urls.transaction_routes import TransactionHandler
+from src.app.controller.transaction_controller.transaction_routes import TransactionHandler
 from src.app.models.transaction import Transaction
 
 

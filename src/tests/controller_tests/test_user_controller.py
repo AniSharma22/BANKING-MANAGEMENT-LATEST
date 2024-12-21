@@ -2,7 +2,7 @@ import pytest
 from unittest.mock import Mock, patch, MagicMock
 from flask import Flask
 
-from src.app.controller.user_urls.user_routes import UserHandler
+from src.app.controller.user_controller.user_routes import UserHandler
 
 
 class TestUserHandler:

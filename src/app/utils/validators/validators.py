@@ -1,6 +1,8 @@
 import re
 import uuid
 
+from pydantic import UUID4
+
 
 class Validators:
 
@@ -82,3 +84,9 @@ class Validators:
         :return:
         """
         return 6 <= len(address) <= 30
+
+    @staticmethod
+    def is_valid_uuid(id: UUID4) -> None:
+        if id is None:
+            raise ValueError("Id cannot be None")
+        id = uuid.UUID(str(id))

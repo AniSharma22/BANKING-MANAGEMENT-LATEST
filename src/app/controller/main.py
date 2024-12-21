@@ -1,10 +1,11 @@
-import jwt
-from flask import Flask, request, jsonify, g
+import uvicorn
+from fastapi import FastAPI
 
-from src.app.controller.account_urls.account_routes import create_account_routes
-from src.app.controller.bank_urls.bank_routes import create_bank_routes
-from src.app.controller.branch_urls.branch_routes import create_branch_routes
-from src.app.controller.transaction_urls.transaction_routes import create_transaction_routes
+from src.app.controller.account_controller.account_routes import create_account_router
+from src.app.controller.bank_controller.bank_routes import create_bank_router
+from src.app.controller.branch_controller.branch_routes import create_branch_router
+from src.app.controller.transaction_controller.transaction_routes import create_transaction_router
+from src.app.controller.user_controller.user_routes import create_user_router
 from src.app.repositories.account_repository import AccountRepository
 from src.app.repositories.bank_repository import BankRepository
 from src.app.repositories.branch_repository import BranchRepository
@@ -15,20 +16,28 @@ from src.app.services.bank_service import BankService
 from src.app.services.branch_service import BranchService
 from src.app.services.transaction_service import TransactionService
 from src.app.services.user_service import UserService
-from src.app.controller.user_urls.user_routes import create_user_routes
 from src.app.utils.db.db import DB
+from src.app.utils.errors.error import register_validation_exception_handler
 
 
 def create_app():
-    app = Flask(__name__)
+    app = FastAPI(
+        title="Banking App",
+        description="API for banking operations",
+        version="1.0.0"
+    )
 
+    # Custom global exception handler (Validation errors)
+    register_validation_exception_handler(app)
+
+    # Initialize dependencies
     db = DB()
 
+    user_repository = UserRepository(db)
     bank_repository = BankRepository(db)
     branch_repository = BranchRepository(db)
     account_repository = AccountRepository(db)
     transaction_repository = TransactionRepository(db)
-    user_repository = UserRepository(db)
 
     bank_service = BankService(bank_repository)
     branch_service = BranchService(branch_repository, bank_service)
@@ -36,39 +45,17 @@ def create_app():
     transaction_service = TransactionService(transaction_repository, account_service)
     user_service = UserService(user_repository)
 
-    # Register blueprints
-    app.register_blueprint(
-        create_bank_routes(bank_service),
-        url_prefix='/bank'
-    )
-
-    app.register_blueprint(
-        create_branch_routes(branch_service),
-        url_prefix='/branch'
-    )
-
-    app.register_blueprint(
-        create_account_routes(account_service),
-        url_prefix='/account'
-    )
-
-    app.register_blueprint(
-        create_transaction_routes(transaction_service),
-        url_prefix='/transaction'
-    )
-
-    app.register_blueprint(
-        create_user_routes(user_service),
-        url_prefix='/user'
-    )
-
-    @app.route('/')
-    def index():
-        return 'Hello World!'
+    # Include routers
+    app.include_router(create_user_router(user_service))
+    app.include_router(create_bank_router(bank_service))
+    app.include_router(create_account_router(account_service))
+    app.include_router(create_transaction_router(transaction_service))
+    app.include_router(create_branch_router(branch_service))
 
     return app
 
 
+app = create_app()
+
 if __name__ == "__main__":
-    app = create_app()
-    app.run(debug=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=5000)

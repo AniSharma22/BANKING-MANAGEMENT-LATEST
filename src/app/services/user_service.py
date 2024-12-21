@@ -23,5 +23,5 @@ class UserService:
     def login_user(self, email: str, password: str) -> User:
         user = self.user_repository.fetch_user_by_email(email)
         if user is None or not Utils.check_password(password, user.password):
-            raise InvalidCredentialsError("Email or password incorrect")
+            raise InvalidCredentialsError("Email or password is incorrect")
         return user

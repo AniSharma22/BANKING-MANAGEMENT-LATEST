@@ -53,7 +53,7 @@ with conn:
         CREATE TABLE IF NOT EXISTS transactions (
             id TEXT PRIMARY KEY,
             amount INTEGER NOT NULL,
-            transaction_type TEXT NOT NULL CHECK(transaction_type IN ('deposit', 'withdraw', 'transfer')),
+            transaction_type TEXT NOT NULL CHECK(transaction_type IN ('DEPOSIT', 'WITHDRAW', 'TRANSFER')),
             sender_acc_id TEXT,
             receiver_acc_id TEXT,
             timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

@@ -1,0 +1,7 @@
+htmlcov
+src/tests/app.log
+app.log
+identifier.sqlite
+.coverage
+.idea
+
